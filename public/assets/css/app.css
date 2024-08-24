@@ -9,12 +9,6 @@ header {
     min-height: 20vh;
 }
 
-input[type="seacher"]{
-    height: 30px;
-    width: 300px;
-    border: solid black;
-}
-
 #divPrincipalHeader{
     display: flex;
     justify-content: space-between;
@@ -35,9 +29,7 @@ footer{
 
 footer div{
     color: rgb(255, 206, 115);
-    display: flex;
     justify-content: space-around;
-    padding-top: 10px;
     padding-top: 20px;
     padding-bottom: 30px;
 }
@@ -47,13 +39,8 @@ select{
     height: 50px;
     margin-top: 10px;
     border-radius: 10px;
+    padding-left: 10px;
     border: cornflowerblue solid;
-}
-
-#select input{
-    flex-direction: column;
-    justify-items: center;
-    display: flex;
 }
 
 input{
@@ -61,6 +48,7 @@ input{
     height: 50px;
     margin-top: 10px;
     border-radius: 10px;
+    padding-left: 10px;
     border: cornflowerblue solid;
 }
 
@@ -71,21 +59,6 @@ input[type="seacher"]{
     margin-top: 10px;
     border-radius: 10px;
     border: cornflowerblue solid;
-}
-
-#inputes{
-display: flex;
-flex-direction: column;
-}
-
-#verde{
-    display: flex;
-    justify-content: space-evenly;
-}
-
-#selectmoment{
-    display: flex;
-    flex-direction: column;
 }
 
 button{

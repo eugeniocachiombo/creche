@@ -18,6 +18,7 @@
         }
     }
 </style>
+
 <main>
     <div class="container">
         @include('inclusao.logotipo')

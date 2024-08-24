@@ -1,38 +1,46 @@
+@include('inclusao.head')
+@include('inclusao.header')
+
 <main>
     <div style="background-color: rgb(255, 206, 115); color: white;">
-        <h1 style="margin-top: 20px;">Estrelinhas do futuro</h1>
+        <h1 class="ps-4" style="margin-top: 20px;">Estrelinhas do futuro</h1>
     </div>
+
     <div style="margin-top: 20px;">
         <hr style="background: rgb(255, 206, 115);" size="3px">
     </div>
 
-    <form action="">
-        <h1 style="margin: 10px;">Cadastro de criança</h1>
-
-        <div id="verde">
-            <div id="inputes">
-                <input type="text" placeholder="Nome da criança" id="nome">
+    <div class="container">
+        <h1 style="margin: 10px;">Cadastro de Aluno</h1>
+        <hr>
+        <form action="" class="row g-3 d-table d-md-flex ">
+            <div class="col-4">
+                <input type="text" placeholder="Nome da aluno" id="nome">
                 <input type="text" placeholder="Sobrenome" id="sobrenome">
                 <input type="date" id="data">
+            </div>
+
+            <div class="col-4">
+                
                 <select id="genero">
-                    <option value="Genéro">Genéro</option>
+                    <option class="d-none">Selecione o Genéro</option>
                     <option value="Masculino">Masculino</option>
                     <option value="Femenino">Femenino</option>
                 </select>
-            </div>
-
-            <div id="selectmoment">
                 <input type="text" placeholder="Nome do pai" id="nomePai">
                 <input type="text" placeholder="Nome da mãe" id="nomeMae">
+            </div>
+
+            <div class="col-4">
                 <select id="estadoSaude">
-                    <option value="Estado de saúde">Estado de saúde</option>
+                    <option class="d-none">Selecione o Estado de saúde</option>
                     <option value="Tem patologia">Tem patologia</option>
                     <option value="Dificiente de membros(Especiais)">Dificiente de membros(Especiais)</option>
                     <option value="Dificiente de mente">Dificiente de mente</option>
                 </select>
 
                 <select id="nacionalidade">
-                    <option>Nacionalidade</option>
+                    <option class="d-none">Selecione a Nacionalidade</option>
                     <option>Estados-unidos-de-America</option>
                     <option>Angola</option>
                     <option>Brasil</option>
@@ -71,20 +79,17 @@
                     <option>Corea-do-sul</option>
                     <option>Corea-do-Norte</option>
                 </select>
+            </div><hr>
+
+
+            <div class="pb-5">
+                <button style="min-width: 35vh; font-size: 20px" onclick="clicar()" type="button" >
+                    Cadastrar
+                </button>
             </div>
-
-        </div>
-        <div>
-            <button onclick="clicar()" type="button" style="margin-bottom: 40px;">
-                <h1>Cadastrar</h1>
-            </button>
-        </div>
-
-        <div>
-            <h1>Resultado: </h1>
-            <div id="resultado">Será exibido aqui os resultados</div>
-            <br><br><br>
-        </div>
-    </form>
-
+        </form>
+    </div>
 </main>
+
+@include('inclusao.footer')
+@include('inclusao.foot')

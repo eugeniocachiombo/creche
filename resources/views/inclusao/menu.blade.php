@@ -3,7 +3,7 @@
         <li>Inicío</li>
     </a>
     <a href="Pagina1.html">
-        <li>Cadastro de funcionarios</li>
+        <li>Funcionários</li>
     </a>
     <a href="Pagina1.html">
         <li>Actividades</li>
