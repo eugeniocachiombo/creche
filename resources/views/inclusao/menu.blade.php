@@ -1,4 +1,4 @@
-<ul id="UL" type="none">
+<ul id="menu" type="none">
     <li>Inicío</li>
     <a href="Pagina1.html">
         <li>Cadastro de funcionarios</li>
