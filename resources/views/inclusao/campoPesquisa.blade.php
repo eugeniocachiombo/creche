@@ -1,3 +1,3 @@
 <div>
-    <input type="seacher" placeholder="Pesquisa aqui">
+    <input type="seacher" placeholder="Pesquisar">
 </div>

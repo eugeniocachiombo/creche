@@ -8,10 +8,10 @@
 
     <div class=" col-md-4 p-4" style="border: 3px solid  cornflowerblue">
         <form class="row g-3 " action="/inicio" method="get">
-            <label for="">Email ou telefone:</label>
+            <label for=""><b>Email ou telefone:</b></label>
             <input type="text" name="" id="">
 
-            <label for="">Senha:</label>
+            <label for=""><b>Senha:</b></label>
             <input type="password" name="" id="">
 
             <button type="submit">Logar</button>

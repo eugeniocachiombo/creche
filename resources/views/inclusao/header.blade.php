@@ -1,5 +1,5 @@
 <header>
-    <div id="divPrincipalHeader">
+    <div id="divPrincipalHeader" class="d-md-flex d-table">
         @include('inclusao.logo')
         @include('inclusao.campoPesquisa')
     </div>
