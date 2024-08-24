@@ -2,10 +2,9 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
+use App\Http\Controllers\Inicio\Index;
 
-Route::get('/', function () {
-    return view('teste');
-});
+Route::get('/', [Index::class, "index"]);
 
 
 
