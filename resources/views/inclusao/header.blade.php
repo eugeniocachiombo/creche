@@ -4,7 +4,7 @@
         @include('inclusao.campoPesquisa')
     </div>
 
-    <div>
+    <div class="d-flex justify-content-end">
         @include('inclusao.menu')
     </div>
 </header>
