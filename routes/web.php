@@ -12,6 +12,7 @@ Route::get('/inicio', [Index::class, "paginaInicial"]);
 Route::get('/aluno/cadastro', [AlunoController::class, "cadastrarAluno"]);
 
 Route::get('/funcionario/cadastro', [FuncionarioController::class, "cadastrarFuncionario"]);
+Route::post('/funcionario/cadastro', [FuncionarioController::class, "salvarCadastroFuncionario"]);
 
 
 
